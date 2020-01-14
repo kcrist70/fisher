@@ -1,0 +1,10 @@
+DEBUG = True
+SQLALCHEMY_DATABASE_URI = 'mysql+cymysql://root:123456789@127.0.0.1:3306/fisher'
+SECRET_KEY = '1234567890'
+
+MAIL_SERVER = 'smtp.aliyun.com'
+MAIL_PORT = 465
+MAIL_USE_SSL = True
+MAIL_USE_TSL = False
+MAIL_USERNAME = 'yefei@aliyun.com'
+MAIL_PASSWORD = '123456789'
